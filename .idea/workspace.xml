@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e7a5ab6-bf67-4d34-9269-4b1e33ad39cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/authors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/authors.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/authors_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/authors_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/authors/new.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/authors_controller_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/authors_helper_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/views/authors/new.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/author/new_author_spec.rb" afterPath="$PROJECT_DIR$/spec/features/author/new_author_spec.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -51,8 +41,8 @@
       <file leaf-file-name="new_author_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/features/author/new_author_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -414,12 +404,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509278320174</updated>
       <workItem from="1509278322360" duration="320000" />
-      <workItem from="1509278973839" duration="4256000" />
+      <workItem from="1509278973839" duration="4465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4576000" />
+    <option name="totallyTimeSpent" value="4785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/author/new_author_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
