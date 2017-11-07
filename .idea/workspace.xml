@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1e7a5ab6-bf67-4d34-9269-4b1e33ad39cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/author.rb" afterPath="$PROJECT_DIR$/app/models/author.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/paper.rb" afterPath="$PROJECT_DIR$/app/models/paper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/authors.rb" afterPath="$PROJECT_DIR$/spec/factories/authors.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/papers.rb" afterPath="$PROJECT_DIR$/spec/factories/papers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/paper_spec.rb" afterPath="$PROJECT_DIR$/spec/models/paper_spec.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -512,7 +506,7 @@
       <workItem from="1509981739588" duration="5204000" />
       <workItem from="1510041148504" duration="1292000" />
       <workItem from="1510042537293" duration="13346000" />
-      <workItem from="1510059203144" duration="2456000" />
+      <workItem from="1510059203144" duration="2477000" />
     </task>
     <task id="LOCAL-00001" summary="fixed issue 6">
       <created>1510042233365</created>
@@ -703,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510061056129</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fixed issue 29">
+      <created>1510061803219</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1510061803219</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29707000" />
+    <option name="totallyTimeSpent" value="29728000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,7 +770,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed issue 7" />
     <MESSAGE value="fixed issue 8" />
     <MESSAGE value="fixed issue 10" />
     <MESSAGE value="fixed issue 10 again" />
@@ -794,7 +794,8 @@
     <MESSAGE value="fixed issue 26" />
     <MESSAGE value="fixed issue 27" />
     <MESSAGE value="fixed issue 28" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed issue 28" />
+    <MESSAGE value="fixed issue 29" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed issue 29" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
