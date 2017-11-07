@@ -15,7 +15,14 @@ class PapersController < ApplicationController
     @paper = Paper.find(params[:id])
   end
   def index
-    @papers = Paper.all
+    @year = params['year']
+    if @year.present?
+      @papers = Paper.where(:year => @year)
+    else
+      @papers = Paper.all
+    end
+
+
   end
   def edit
     @paper = Paper.find(params[:id])
