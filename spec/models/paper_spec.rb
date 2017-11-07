@@ -27,4 +27,10 @@ describe "paper model", type: :model do
                          :author_id => @author.id}).valid?).to eq(false);
 
   end
+  it "should not be created with wrong format year" do
+    @author = FactoryGirl.create :author
+    expect(Paper.create({:title => "COMPUTING MACHINERY AND INTELLIGENCE", :venue => "Mind 49: 433-460", :year => 'nineteen-fifty',
+                         :author_id => @author.id}).valid?).to eq(false);
+
+  end
 end
