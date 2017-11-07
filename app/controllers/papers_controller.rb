@@ -14,6 +14,9 @@ class PapersController < ApplicationController
   def show
     @paper = Paper.find(params[:id])
   end
+  def index
+    @papers = Paper.all
+  end
   private
   def paper_params
     params.require(:paper).permit(:title, :venue, :year)
