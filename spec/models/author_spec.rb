@@ -10,7 +10,7 @@ describe "author model", type: :model do
   end
 
   it "should not be created without last name" do
-    expect(Author.create({:first_name => 'Alan', :last_name => nil,
+    expect(Author.create({:first_name => 'Alan', :last_name => '',
                           :homepage => 'http://wikipedia.org/Alan_Turing'}).valid?).to eq(false);
 
   end
