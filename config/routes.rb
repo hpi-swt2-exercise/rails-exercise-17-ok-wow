@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'authors/new' => 'pages/authors/new', :as => :new_author
+  get 'authors/:author_id/papers/new' => 'papers#new', :as => :new_paper
   resources :authors do
     resources :papers
   end
