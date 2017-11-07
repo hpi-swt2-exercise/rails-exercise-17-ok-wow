@@ -11,4 +11,14 @@ describe 'When i visit new paper page' do
     expect(page).to have_css('input[type="submit"]')
 
   end
+
+  it 'should save a new paper' do
+    visit new_paper_path
+    fill_in 'Title', :with => "COMPUTING MACHINERY AND INTELLIGENCE"
+    fill_in 'Venue', :with => "Mind 49: 433-460"
+    fill_in 'Year', :with => '1950'
+    click_button 'Save Paper'
+
+    Paper.where(:title => "COMPUTING MACHINERY AND INTELLIGENCE")
+  end
 end
