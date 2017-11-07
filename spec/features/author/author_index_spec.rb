@@ -10,5 +10,6 @@ describe 'When i visit authors index page' do
     expect(page).to have_css("th", :text => "Name")
     expect(page).to have_css("th", :text => "Homepage")
     expect(page).to have_link("Add author", :href => new_author_path)
+    expect(page).to have_link("Show", :href => "/authors/#{@author.id}")
   end
 end
