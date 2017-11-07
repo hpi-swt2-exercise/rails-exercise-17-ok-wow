@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171107105740) do
+ActiveRecord::Schema.define(version: 20171107132836) do
 
   create_table "authors", force: :cascade do |t|
     t.string   "first_name"
@@ -20,6 +20,13 @@ ActiveRecord::Schema.define(version: 20171107105740) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  create_table "authors_papers", id: false, force: :cascade do |t|
+    t.integer "author_id", null: false
+    t.integer "paper_id",  null: false
+  end
+
+  add_index "authors_papers", ["author_id", "paper_id"], name: "index_authors_papers_on_author_id_and_paper_id"
 
   create_table "papers", force: :cascade do |t|
     t.string   "title"
