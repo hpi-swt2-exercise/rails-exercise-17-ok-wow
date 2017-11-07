@@ -14,4 +14,11 @@ describe "paper model", type: :model do
                          :author_id => @author.id}).valid?).to eq(false);
 
   end
+
+  it "should not be created without venue" do
+    @author = FactoryGirl.create :author
+    expect(Paper.create({:title => "COMPUTING MACHINERY AND INTELLIGENCE", :venue => '', :year => 1950,
+                         :author_id => @author.id}).valid?).to eq(false);
+
+  end
 end
