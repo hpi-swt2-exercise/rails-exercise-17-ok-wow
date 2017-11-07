@@ -19,12 +19,24 @@ class PapersController < ApplicationController
   end
   def edit
     @paper = Paper.find(params[:id])
+    @ids = []
+    @paper.authors.each do |author|
+      @ids.push(author.id)
+    end
     @authors = Author.all
   end
   def update
     @paper = Paper.find(params[:id])
 
-    if @paper.update(paper_params)
+    myParams = paper_params
+    myParams[:authors] = []
+    paper_params[:authors].each do |author|
+      if author.present?
+        myParams[:authors].push(Author.find(author))
+      end
+    end
+
+    if @paper.update(myParams)
       redirect_to @paper
     else
       render 'edit'
@@ -38,7 +50,8 @@ class PapersController < ApplicationController
   end
   private
   def paper_params
-    params.require(:paper).permit(:title, :venue, :year)
+    params.require(:paper).permit(:title, :venue, :year, :authors => [] )
+
   end
 
 end

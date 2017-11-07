@@ -14,5 +14,5 @@
 </p>
 
 <% @paper.authors.each do |author| %>
-      <p><%= author.name %></p>
+      <p><%= Author.find(author).name %></p>
 <% end %>
