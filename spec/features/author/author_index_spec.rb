@@ -7,5 +7,7 @@ describe 'When i visit authors index page' do
     visit "/authors"
     expect(page).to have_text('Alan Turing')
     expect(page).to have_text("http://wikipedia.org/Alan_Turing")
+    expect(page).to have_css("th", :text => "Name")
+    expect(page).to have_css("th", :text => "Homepage")
   end
 end
