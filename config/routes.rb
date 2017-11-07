@@ -1,9 +1,7 @@
 Rails.application.routes.draw do
   get 'authors/new' => 'pages/authors/new', :as => :new_author
-  get 'authors/1/papers/new' => 'papers#new', :as => :new_paper
-  resources :authors do
-    resources :papers
-  end
+  resources :authors
+  resources :papers
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

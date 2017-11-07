@@ -11,7 +11,7 @@ describe "paper model", type: :model do
   it "should not be created without title" do
     @author = FactoryGirl.create :author
     expect(Paper.create({:title => '', :venue => "Mind 49: 433-460", :year => 1950,
-                         :author => @author}).valid?).to eq(false);
+                         :author_id => @author.id}).valid?).to eq(false);
 
   end
 end
