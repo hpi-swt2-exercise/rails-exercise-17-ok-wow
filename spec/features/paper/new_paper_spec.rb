@@ -21,4 +21,14 @@ describe 'When i visit new paper page' do
 
     Paper.where(:title => "COMPUTING MACHINERY AND INTELLIGENCE")
   end
+
+  it "should display error when title is not entered" do
+    visit new_paper_path
+    fill_in 'Venue', :with => "Mind 49: 433-460"
+    fill_in 'Year', :with => '1234'
+    click_button 'Save Paper'
+
+    expect(page).to have_text("Title can't be blank")
+
+  end
 end
