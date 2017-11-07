@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1e7a5ab6-bf67-4d34-9269-4b1e33ad39cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/authors_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/authors_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/authors/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/authors/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/author/edit_author_spec.rb" afterPath="$PROJECT_DIR$/spec/features/author/edit_author_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/authors/index.html.erb" afterPath="$PROJECT_DIR$/app/views/authors/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/author/author_index_spec.rb" afterPath="$PROJECT_DIR$/spec/features/author/author_index_spec.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -45,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_author_spec.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit_author_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/author/edit_author_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -75,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/authors/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -88,8 +87,8 @@
       <file leaf-file-name="author_index_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/author/author_index_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="195">
+              <caret line="13" column="77" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -158,8 +157,6 @@
         <option value="$PROJECT_DIR$/spec/factories/authors.rb" />
         <option value="$PROJECT_DIR$/app/views/authors/show.html.erb" />
         <option value="$PROJECT_DIR$/spec/features/author/author_show_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/authors/index.html.erb" />
-        <option value="$PROJECT_DIR$/spec/features/author/author_index_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/author.rb" />
         <option value="$PROJECT_DIR$/spec/models/author_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/authors/new.html.erb" />
@@ -167,6 +164,8 @@
         <option value="$PROJECT_DIR$/app/controllers/authors_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/authors/edit.html.erb" />
         <option value="$PROJECT_DIR$/spec/features/author/edit_author_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/features/author/author_index_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/authors/index.html.erb" />
       </list>
     </option>
   </component>
@@ -474,7 +473,7 @@
       <workItem from="1509586319148" duration="2087000" />
       <workItem from="1509981739588" duration="5204000" />
       <workItem from="1510041148504" duration="1292000" />
-      <workItem from="1510042537293" duration="5437000" />
+      <workItem from="1510042537293" duration="5653000" />
     </task>
     <task id="LOCAL-00001" summary="fixed issue 6">
       <created>1510042233365</created>
@@ -546,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510047777040</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed issue 15">
+      <created>1510048320469</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1510048320469</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19342000" />
+    <option name="totallyTimeSpent" value="19558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,7 +607,8 @@
     <MESSAGE value="fixed issue 12" />
     <MESSAGE value="fixed issue 13" />
     <MESSAGE value="fixed issue 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed issue 14" />
+    <MESSAGE value="fixed issue 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed issue 15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -931,14 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/authors/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/author/author_show_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -955,26 +954,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/author/author_index_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/author/new_author_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/authors/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -990,7 +973,31 @@
     <entry file="file://$PROJECT_DIR$/spec/features/author/edit_author_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/authors/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/author/author_index_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="77" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/authors/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding />
         </state>
       </provider>
