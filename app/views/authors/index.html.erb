@@ -10,6 +10,9 @@
       <td><%= author.homepage %></td>
       <td><%= link_to 'Show', "/authors/#{author.id}" %></td>
       <td><%= link_to 'Edit', "/authors/#{author.id}/edit" %></td>
+      <td><%= link_to 'Destroy', author_path(author),
+                      method: :delete,
+                      data: { confirm: 'Are you sure?' } %></td>
     </tr>
 <% end %>
 

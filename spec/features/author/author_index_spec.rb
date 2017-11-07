@@ -12,5 +12,6 @@ describe 'When i visit authors index page' do
     expect(page).to have_link("Add author", :href => new_author_path)
     expect(page).to have_link("Show", :href => "/authors/#{@author.id}")
     expect(page).to have_link("Edit", :href => "/authors/#{@author.id}/edit")
+    expect(page).to have_link("Destroy", :href => "/authors/#{@author.id}")
   end
 end
